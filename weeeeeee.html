@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            text-align: center;
+            background-color: #ffe6e6;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            max-width: 450px;
+        }
+
+        h1 {
+            font-family: 'Sacramento', cursive;
+            font-size: 3.5rem;
+            color: #d6336c;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .emoji {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .message {
+            font-size: 1.3rem;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            position: relative;
+        }
+
+        button {
+            border: none;
+            padding: 15px 35px;
+            font-size: 22px;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 12px;
+            transition: 0.3s;
+        }
+
+        .yes {
+            background-color: #ff4d6d;
+            color: white;
+            box-shadow: 0 4px 8px rgba(255, 77, 109, 0.4);
+            font-size: 24px;
+        }
+
+        .yes:hover {
+            background-color: #e60044;
+            box-shadow: 0 6px 12px rgba(230, 0, 68, 0.5);
+            transform: scale(1.1);
+        }
+
+        .no {
+            background-color: white;
+            color: #ff4d6d;
+            border: 3px solid #ff4d6d;
+            position: relative;
+            font-size: 24px;
+        }
+
+        .no:hover {
+            position: absolute;
+            left: calc(50% - 50px + (Math.random() * 200px - 100px));
+            top: calc(50% - 50px + (Math.random() * 200px - 100px));
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Will you be my Valentine, Nashy? 💖</h1>
+        <div class="emoji">
+            ❤️🦖
+        </div>
+        <p class="message">You can't say no to this, right? 😘</p>
+        <div class="buttons">
+            <button class="yes" onclick="alert('WEEEEEEE aight may hotwheels toh and lego NYEHEHEHEHE 3FW my darling~ 💕')">Yes</button>
+            <button class="no" onclick="alert('that hurts yk? :< 😢')">No</button>
+        </div>
+    </div>
+
+</body>
+</html>
